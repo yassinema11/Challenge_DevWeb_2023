@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "Challenge dev web 2023",
   "main": "server.js",
-  "scripts": {
+  "scripts": 
+  {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js"
   },
   "author": "Yassine Manai",
   "license": "ISC",
-  "dependencies": {
+  "dependencies":
+   {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "dotenv": "^16.0.3",
@@ -19,7 +21,8 @@
     "mongodb": "^5.5.0",
     "mongoose": "^7.2.2"
   },
-  "devDependencies": {
+  "devDependencies": 
+  {
     "nodemon": "^2.0.22"
   }
 }
